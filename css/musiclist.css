@@ -1,0 +1,15 @@
+
+li{
+    list-style: none;
+}
+.music-list strong{
+    display:none;
+}
+.music-list .pointer{
+    display: inline-block;
+}
+.music-list .active{
+    color: #66ccff;
+    position: relative;
+    left:-22px;
+}

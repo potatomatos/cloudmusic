@@ -1,0 +1,129 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.window {
+    border: 6px #ccc outset;
+    width: 99%;
+    height: 98%;
+    background-color: #000;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #08246B;
+    padding: 2px;
+}
+
+.header img{
+    width: 20px;
+    height:20px;
+}
+
+#mainContent {
+    background-color: #000;
+    border-top: #ccc outset 2px;
+    height: 100%;
+
+}
+.player-wrap{
+    padding-top: 20px;
+    height: 120px;
+    line-height:30px;
+}
+.player{
+    display: none;
+}
+.player .music-icon{
+    margin-left:18%;
+    color: #FF2F2F;
+    font-size: 14px;
+    letter-spacing:10px;
+}
+.player .quality{
+    color: #FF2F2F;
+}
+.player .info{
+    color: #C6C323;
+    margin-left: 10px;
+}
+.player .progress-bar{
+    min-width: 50%;
+    float: left;
+    color: #65C310;
+    padding-left: 20%;
+}
+.player .progress-time{
+    float: left;
+    color: #65C310;
+}
+.player .bar{
+    float: left;
+    display: inline-block;
+}
+.progress{
+    height: 12px !important;
+    padding: 0 ;
+    margin: 0 ;
+    color: #65C310;
+    background:#65C310 ;
+    display: inline-block;
+}
+.navigation{
+    color: #65C310;
+    padding-left: 20%;
+}
+.loading{
+    color: #65C310;
+    min-height: 24px;
+    margin: 18px 0;
+    padding-left: 20%;
+}
+.loading .normal{
+    display: none;
+}
+.loading .error{
+    display: none;
+}
+.music_player{
+    padding-left: 20%;
+}
+.container{
+    padding-left: 20%;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+input {
+    background-color:#000;
+    border:0;
+    outline:none;
+    /*font-size:12px;*/
+    width:80%;
+    color: #65C310; /* 光标颜色 */
+    font-size: 18px;
+}
+input.form-control {
+    color: #65C310; /* 光标颜色 */
+}
+input::first-line {
+    color: #fff; /* 文本颜色 */
+}
+a{
+    text-decoration: none;
+}
+.tips{
+    font-family: "宋体";
+    padding-left: 20%;
+}

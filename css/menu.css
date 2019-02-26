@@ -1,0 +1,11 @@
+.list strong{
+    display:none;
+}
+.list .pointer{
+    display: inline-block;
+}
+.list .active{
+    color: #66ccff;
+    position: relative;
+    left:-22px;
+}

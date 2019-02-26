@@ -1,0 +1,14 @@
+li{
+    list-style: none;
+}
+.play-list strong{
+    display:none;
+}
+.play-list .pointer{
+    display: inline-block;
+}
+.play-list .active{
+    color: #66ccff;
+    position: relative;
+    left:-22px;
+}

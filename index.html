@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8"/>
+    <title>cloud music</title>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"/>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+<div class="window">
+    <div class="header">
+        <img src="images/logo.ico">
+        <span>Cloud Music</span>
+    </div>
+    <div id="mainContent">
+        <div class="player-wrap">
+            <div class="player">
+
+                <div class="music-info">
+                    <span class="music-icon"></span>
+                    <span class="quality">HD&nbsp;320k</span>
+                    <span class="info">
+                    <span class="song-name"></span>
+                    -
+                    <span class="singer"> </span>
+                    <
+                    <span class="album">&nbsp;</span>
+                    >
+                 </span>
+                </div>
+                <div class="progress-info">
+                    <div class="progress-bar">
+                        <span style="float: left">[</span>
+                        <span class="bar"><span class="progress"></span></span>
+                        <span style="float: right">]</span>
+                    </div>
+                    <div class="progress-time">
+                        <span>（</span>
+                        <span class="time"><span class="now-time"></span>/<span class="total-time"></span></span>
+                        <span>）</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <span>网易云音乐</span><span class="nav-text"></span>
+        </div>
+        <div class="loading">
+            <p class="normal">享受高品质音乐，loading...</p>
+            <p class="error">获取失败</p>
+        </div>
+        <audio id='music_player' autoplay="autoplay" controls="controls" preload="auto" HIDDEN=TRUE src="">
+            你的浏览器不支持audio标签
+        </audio>
+        <div class="container">
+
+        </div>
+        <div class="tips"></div>
+    </div>
+</div>
+
+</body>
+<script type="application/javascript" src="lib/require.js"></script>
+<script type="application/javascript" src="common.js"></script>
+<script type="application/javascript" src="index-init-config.js"></script>
+</html>

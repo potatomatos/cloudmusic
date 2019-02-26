@@ -1,0 +1,16 @@
+
+
+li{
+    list-style: none;
+}
+.album-list strong{
+    display:none;
+}
+.album-list .pointer{
+    display: inline-block;
+}
+.album-list .active{
+    color: #66ccff;
+    position: relative;
+    left:-22px;
+}
